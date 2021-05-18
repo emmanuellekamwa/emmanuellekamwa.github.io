@@ -1,0 +1,102 @@
+.portfolio,
+.contact,
+.about {
+    color: #172b4d;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+}
+
+.headline {
+    padding-top: 160px;
+}
+
+.small-text {
+    color: #172b4d;
+    font-style: normal;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    line-height: 32px;
+}
+
+.text1 {
+    font-weight: 800;
+    color: #172b4d;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.text2 {
+    color: #ff6163;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.text {
+    color: #172b4d;
+    font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.card1 {
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+}
+
+.card-top {
+    background-color: #f9eaea;
+    width: 369px;
+    height: 200px;
+}
+
+.card-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #172b4d;
+}
+
+.text3,
+.text4,
+.text5,
+.text6 {
+    background-color: #f9eaea;
+    border-radius: 4px;
+    margin: 0px 8px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    font-style: normal;
+}
+
+.btn {
+    background-color: #ff6163;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+span {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.title {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+}
