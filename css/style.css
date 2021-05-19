@@ -75,6 +75,7 @@
     font-size: 12px;
     line-height: 16px;
     font-style: normal;
+    padding: 12px;
 }
 
 .btn {
@@ -97,6 +98,44 @@ span {
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+}
+
+.description {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #172b4d;
+}
+
+.languages {
+    padding: 4px 8px;
+}
+
+.language-card {
+    background-color: #f9eaea;
+    border-radius: 8px;
+    border: 1px solid #c1c7d0;
+    height: 250px;
+}
+
+.topic {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #172b4d;
+}
+
+.contact-text {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
     line-height: 52px;
     color: #172b4d;
 }
