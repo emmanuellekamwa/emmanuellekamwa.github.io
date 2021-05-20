@@ -10,20 +10,19 @@
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
             crossorigin="anonymous"
         />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap"
-            rel="stylesheet"
-        />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Noticia+Text:ital@1&family=Tinos&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css" />
         <title>Portfolio</title>
     </head>
     <body>
         <div class="top-page d-flex flex-column align-items-center p-4">
             <div class="head">
-                <a href="#" class="px-3 portfolio">Portfolio</a>
-                <a href="#" class="px-3 contact">Contact</a>
-                <a href="#" class="px-3 about">About</a>
+                <a href="#portfolio" class="px-3 portfolio">Portfolio</a>
+                <a href="#contact" class="px-3 contact">Contact</a>
+                <a href="#about" class="px-3 about">About</a>
             </div>
             <div class="headline d-flex flex-column align-items-center">
                 <h1 class="text-center text1">Hey there. I'm Emma.</h1>
@@ -55,21 +54,18 @@
                 </a>
             </div>
         </div>
-        <div class="recent-work d-flex flex-column align-items-center">
+        <div class="recent-work d-flex flex-column align-items-center" id="portfolio">
             <h1 class="text text-center fw-bold pt-5">My Recent Projects</h1>
             <div class="card-work d-flex flex-column align-items-center">
                 <div class="row1 d-flex justify-content-center">
                     <div class="card1 mx-5 my-5">
-                        <div class="card-top"></div>
+                            <img src="images/AB.png" alt="AB" class="card-top">
                         <div class="card-body">
                             <h4 class="card-title text-center">
                                 Conference Page
                             </h4>
-                            <div class="tags d-flex justify-content-center">
-                                <p class="text3 px-4">html</p>
-                                <p class="text4 px-4">css</p>
-                                <p class="text5 px-4">bootstrap</p>
-                            </div>
+                            <p class="card-text text-center">This is a website that describes Microverse as a </br>whole.
+                                It has been built using HTML5, CSS3 </br>and Bootstrap</p>
                             <div
                                 class="
                                     button
@@ -78,21 +74,21 @@
                                     pt-3
                                 "
                             >
-                                <button type="button" class="btn">
-                                    <span>See Project</span>
+                                <button type="button" class="btn mx-2">
+                                    <a href="https://raw.githack.com/emmanuellekamwa/HTML-CSS-Capstone/feature-branch/main.html" class="span">See Project</a>
+                                </button>
+                                <button type="button" class="btn mx-2">
+                                    <a href="https://github.com/emmanuellekamwa/HTML-CSS-Capstone/tree/feature-branch" class="span">View source</a>
                                 </button>
                             </div>
                         </div>
                     </div>
                     <div class="card1 mx-5 my-5">
-                        <div class="card-top"></div>
+                            <img src="images/AA.png" alt="AA" class="card-top">
                         <div class="card-body">
                             <h4 class="card-title text-center">Newsweek</h4>
-                            <div class="tags d-flex justify-content-center">
-                                <p class="text3 px-4">html</p>
-                                <p class="text4 px-4">css</p>
-                                <p class="text5 px-4">bootstrap</p>
-                            </div>
+                            <p class="card-text text-center">This is the clone of an American</br>voting site
+                             built with HTML5, CSS3</br> and Bootstrap</p>
                             <div
                                 class="
                                     button
@@ -101,8 +97,11 @@
                                     pt-3
                                 "
                             >
-                                <button type="button" class="btn">
-                                    <span>See Project</span>
+                                <button type="button" class="btn mx-2">
+                                    <a href="https://raw.githack.com/emmanuellekamwa/newsweek/feature-branch/index.html" class="span">See Project</a>
+                                </button>
+                                <button type="button" class="btn mx-2">
+                                    <a href="https://github.com/emmanuellekamwa/newsweek" class="span">View source</a>
                                 </button>
                             </div>
                         </div>
@@ -110,49 +109,54 @@
                 </div>
                 <div class="row1 d-flex justify-content-center">
                     <div class="card1 mx-5 my-5">
-                        <div class="card-top"></div>
+                        <img src="images/B.png" alt="B" class="card-top">
                         <div class="card-body">
                             <h4 class="card-title text-center">Transactions</h4>
-                            <div class="tags d-flex justify-content-center">
-                                <p class="text3 px-4">html</p>
-                                <p class="text4 px-4">css</p>
-                                <p class="text6 px-4">RoR</p>
-                            </div>
+                            <p class="card-text text-center">This is an app used to make transactions</br>
+                                and group them.</br>
+                                It has been built with HTML5,</br>
+                                 Ruby on Rails and bootstrap css</p>
                             <div
                                 class="
                                     button
                                     d-flex
                                     justify-content-center
                                     pt-3
-                                "
+                            "
                             >
-                                <button type="button" class="btn">
-                                    <span>See Project</span>
+                                <button type="button" class="btn mx-2">
+                                    <a href="https://fathomless-eyrie-49106.herokuapp.com/" class="span">See Project</a>
+                                </button>
+                                <button type="button" class="btn mx-2">
+                                    <a href="https://github.com/emmanuellekamwa/Transactions" class="span">View source</a>
                                 </button>
                             </div>
                         </div>
                     </div>
                     <div class="card1 mx-5 my-5">
-                        <div class="card-top"></div>
+                        <img src="images/BB.png" alt="BB" class="card-top">
                         <div class="card-body">
                             <h4 class="card-title text-center">
                                 RoR Social scaffold
                             </h4>
-                            <div class="tags d-flex justify-content-center">
-                                <p class="text3 px-4">html</p>
-                                <p class="text4 px-4">css</p>
-                                <p class="text5 px-4">bootstrap</p>
-                            </div>
+                            <p class="card-text text-center">This app enables users to create</br> an account,
+                                log in into </br>the account and create posts.</br>
+                                It has been built with HTML5, Ruby</br> on rails
+                                and bootstrap css
+                            </p>
                             <div
                                 class="
                                     button
                                     d-flex
                                     justify-content-center
                                     pt-3
-                                "
+                            "
                             >
-                                <button type="button" class="btn">
-                                    <span>See Project</span>
+                                <button type="button" class="btn mx-2">
+                                    <a href="https://fathomless-eyrie-49106.herokuapp.com/" class="span">See Project</a>
+                                </button>
+                                <button type="button" class="btn mx-2">
+                                    <a href="https://github.com/emmanuellekamwa/Transactions" class="span">View source</a>
                                 </button>
                             </div>
                         </div>
@@ -160,20 +164,25 @@
                 </div>
             </div>
         </div>
-        <div class="about-me d-flex flex-column align-items-center pt-5">
+        <div class="about-me d-flex flex-column align-items-center pt-5" id="about">
             <div class="top-head d-flex flex-column align-items-center">
                 <h2 class="title text-center">About me</h2>
-                <p class="description text-center">
-                    My name is Kamwa Emmanuelle Alix. I am a full-stack
-                    developer and I live in Douala-Cameroon. I am a passionate
-                    of coding and I am a very meticulous person. If you are
-                    interested in my achievements, I am ready for new
-                    opportunities and new collaborations. All you have to do is
-                    to contact me.
-                </p>
+                <div class="section">
+                    <div class="image ml-5">
+                        <img src="images/me.jpg" alt="me" class="photo">
+                    </div>
+                    <p class="description">
+                        My name is Kamwa Emmanuelle Alix. I am a full-stack
+                        developer and I live in Douala-Cameroon. I am a passionate
+                        of coding and I am a very meticulous person. If you are
+                        interested in my achievements, I am ready for new
+                        opportunities and new collaborations. All you have to do is
+                        to contact me or send me <a href="mailto:emmanuellekamwa@gmail.com">an email.</a>
+                    </p>
+                </div>
                 <div class="button d-flex justify-content-center pt-3">
                     <button type="button" class="btn">
-                        <span>Get my Resume</span>
+                        <a href="#" class="span">Get my Resume</a>
                     </button>
                 </div>
             </div>
@@ -217,7 +226,7 @@
                 </div>
             </div>
         </div>
-        <div class="form d-flex justify-content-center pt-5">
+        <div class="form d-flex justify-content-center pt-5" id="contact">
             <div class="texts d-flex justify-content-start">
                 <p class="contact-text d-flex justify-content-center pt-4">
                     I'm always interested in hearing</br>
@@ -235,7 +244,7 @@
                 <textarea class="form-control area mt-3" placeholder="Typing something"></textarea>
                 <div class="button d-flex justify-content-center pt-3">
                     <button type="button" class="btn">
-                        <span>Get in touch</span>
+                        <a href="#" class="span">Get in touch</a>
                     </button>
                 </div>
             </div>
