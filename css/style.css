@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
 .portfolio,
 .contact,
 .about {
@@ -156,10 +164,12 @@ a:hover {
     max-width: 100%;
 }
 
-.image {
+.section {
+    margin-top: 0px;
+    padding: 10px 20px 20px;
 }
 
-.section {
+.about-grid {
     display: grid;
     margin-top: 40px;
     grid-auto-columns: 1fr;
@@ -169,4 +179,30 @@ a:hover {
     grid-template-columns: 0.5fr 1fr;
     margin-right: auto;
     margin-left: auto;
+    justify-content: space-between;
+}
+
+.welcome {
+    padding: 10px 12px;
+}
+
+.hamburger {
+    padding: 8px;
+}
+
+@media screen and (max-width: 991px) {
+    .about-grid {
+        grid-template-columns: minmax(auto, 1fr);
+
+        grid-template-rows: auto minmax(auto, 3.75fr);
+    }
+
+    .image {
+        align-self: auto;
+        justify-self: center;
+    }
+
+    .photo {
+        height: 800px;
+    }
 }
