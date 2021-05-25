@@ -205,4 +205,10 @@ a:hover {
     .photo {
         height: 800px;
     }
+
+    .full,
+    .email,
+    .area {
+        width: 210%;
+    }
 }
