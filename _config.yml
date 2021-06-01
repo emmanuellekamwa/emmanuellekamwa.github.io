@@ -5,4 +5,7 @@ url: https://emmanuellekamwa.github.io/
 author: kamwa Emmanuelle Alix
 plugins:
   - jekyll-seo-tag
+  github:
+  zip_url: http://site.github.zip_url/download.zip
+  another_url: https://emmanuellekamwa.github.io/
 google_analytics: G-ND7F80HZZ1
